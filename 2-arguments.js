@@ -1,9 +1,9 @@
-// const script0 = "one";
-// console.log(`${script0} ${script1}`)
+const script = process.script.length;
 
-const { argv } = require('node:process');
-
-// print process.argv
-argv.forEach((val, index) => {
-  console.log(`${index}: ${val}`);
-});
+if (scriptLength === 2) {
+    console.log("No argument");
+} else if (scriptLength === 3) {
+    console.log("Argument found");
+} else {
+    console.log("Arguments found");
+}
