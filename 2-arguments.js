@@ -1,4 +1,4 @@
-const script = process.script.length;
+const script = process.script.slice(2);
 
 if (scriptLength === 0) {
     console.log("No argument");
